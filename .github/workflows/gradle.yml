@@ -33,8 +33,7 @@ jobs:
           distributions-cache-enabled: true
           dependencies-cache-enabled: true
           configuration-cache-enabled: true
-		  
-		  
+
       - name: Upload apk-debug
         uses: actions/upload-artifact@v3
         if: ${{ !github.head_ref }}
